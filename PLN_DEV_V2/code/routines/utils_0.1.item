@@ -38,4 +38,13 @@ public class utils {
         }
         System.out.println("Hello " + message + " !"); //$NON-NLS-1$ //$NON-NLS-2$
     }
+    
+    public static String get_status_code(int count_row_source, int count_row_target) {
+    	if ( count_row_source == count_row_target ){
+    	    return "pass";
+    	} else {
+    	    return"reject" ;
+    	}	
+
+    }
 }
