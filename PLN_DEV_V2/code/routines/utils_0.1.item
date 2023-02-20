@@ -60,8 +60,8 @@ public class utils {
     	    return "05-Data Sumber Lebih Besar Daripada Data Target" ;
     	} else if( count_row_source < count_row_target && count_row_source>0 && count_row_target>0  ) {
     	    return "06-Data Target Lebih Besar Daripada Data Sumber" ;
-    	} else if( count_row_source<0 || count_row_target<0  ) {
-    	    return "07-Invalid" ;
+    	} else return "07-Invalid" ;
+    	    
     	}
 
     }
