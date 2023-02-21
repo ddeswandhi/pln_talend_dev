@@ -32,11 +32,21 @@ public class audit_status_code {
      * 
      * {example} helloExemple("world") # hello world !.
      */
-	public static String get_status_audit(int count_row_source, int count_row_target) {
-    	if ( count_row_source == count_row_target ){
-    	    return "pass";
-    	} else {
-    	    return "reject" ;
-    	}	
-	}
+	public static String get_status_code_audit(int count_row_source, int count_row_target) {
+    	if ( count_row_source == count_row_target && count_row_source>0 && count_row_target>0 ){
+    	    return "01-Data Lengkap";
+    	} else if( count_row_source == count_row_target && count_row_source==0 && count_row_target==0  ) {
+    	    return "02-Data Kosong pada Sumber dan Target" ;
+    	} else if( count_row_source > count_row_target && count_row_target==0  ) {
+    	    return "03-Data Kosong pada Target" ;
+    	} else if( count_row_source < count_row_target && count_row_source==0 ) {
+    	    return "04-Data Kosong pada Sumber" ;
+    	} else if( count_row_source > count_row_target && count_row_source>0 && count_row_target>0  ) {
+    	    return "05-Data Sumber Lebih Besar Daripada Data Target" ;
+    	} else if( count_row_source < count_row_target && count_row_source>0 && count_row_target>0  ) {
+    	    return "06-Data Target Lebih Besar Daripada Data Sumber" ;
+    	} else return "07-Invalid" ;
+    	    
+
+    }
 }
