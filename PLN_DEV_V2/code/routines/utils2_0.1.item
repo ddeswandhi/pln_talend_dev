@@ -32,10 +32,11 @@ public class utils2 {
      * 
      * {example} helloExemple("world") # hello world !.
      */
-    public static void helloExample(String message) {
-        if (message == null) {
-            message = "World"; //$NON-NLS-1$
-        }
-        System.out.println("Hello " + message + " !"); //$NON-NLS-1$ //$NON-NLS-2$
-    }
+	public static String get_status_audit(int count_row_source, int count_row_target) {
+    	if ( count_row_source == count_row_target ){
+    	    return "pass";
+    	} else {
+    	    return "reject" ;
+    	}	
+	}
 }
