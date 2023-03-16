@@ -2,7 +2,7 @@
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" internalId="_UGSkYMPFEe2JgfDRvYubQQ" name="CONFIG_DB_Server" prompt="CONFIG_DB_Server?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="10.1.87.98"/>
     <contextParameter comment="" internalId="_UGSkYcPFEe2JgfDRvYubQQ" name="CONFIG_DB_Port" prompt="CONFIG_DB_Port?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="3306"/>
-    <contextParameter comment="" internalId="_UGTLcMPFEe2JgfDRvYubQQ" name="CONFIG_DB_Password" prompt="CONFIG_DB_Password?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_Password" value="enc:system.encryption.key.v1:9yJkl8r/Vjz77CwOEHvI21toiLO/vmm3blvJ9dzbkQ/l+23X"/>
+    <contextParameter comment="" internalId="_UGTLcMPFEe2JgfDRvYubQQ" name="CONFIG_DB_Password" prompt="CONFIG_DB_Password?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_Password" value="enc:system.encryption.key.v1:l9z6wDFd5qeRSGL7gqXUGHMkjpVtSVLp2sz9BvBigBNCLycY"/>
     <contextParameter comment="" internalId="_UGTLccPFEe2JgfDRvYubQQ" name="CONFIG_DB_Login" prompt="CONFIG_DB_Login?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="wandhi"/>
     <contextParameter comment="" internalId="_UGTLcsPFEe2JgfDRvYubQQ" name="CONFIG_DB_AdditionalParams" prompt="CONFIG_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="serverTimezone=UTC&amp;allowMultiQueries=true"/>
     <contextParameter comment="" internalId="_UGTLc8PFEe2JgfDRvYubQQ" name="CONFIG_DB_Database" prompt="CONFIG_DB_Database?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="config"/>
@@ -50,7 +50,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:NavsNHKx73dRKyfA1bXwXZ5VAuMi+JjLAJr0WyFe"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:I0265+UIKBn9Ifm+I81ptkJM8mRkd2SqnvTi1n0T"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -85,7 +85,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:WOHVITw6XPkQcafJmDsvhiD6XxmDMEeZiE8t1ijt"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:0dIWtCZJiVu0AfJpCiQtcSFNXxiyO7UXgFukA4rg"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -122,7 +122,7 @@
   </parameters>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="-160" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="//String batch_run_id = &quot;batch_&quot;+context.batch_name.toLowerCase()+&quot;_&quot;+ (System.currentTimeMillis() / 1000L);&#10;String job_run_id = &quot;job_&quot;+context.source_database.toLowerCase()+&quot;_&quot;+context.source_schema+&quot;_&quot;+context.source_table+&quot;_&quot;+(System.currentTimeMillis() / 1000L);&#10;System.out.println(&quot;job_run_id : &quot; + job_run_id);&#10;globalMap.put(&quot;job_run_id&quot;, job_run_id);&#10;&#10;String status_log = &quot;running&quot;;&#10;String error_message = &quot;&quot;;&#10;String stage = &quot;raw&quot;;&#10;String curr_timestamp =&quot;CURRENT_TIMESTAMP&quot;;&#10;    &#10;String append_logs = &quot;INSERT INTO audit_logs.job_logs&quot;+&#10;    &quot;\n(job_run_id, batch_run_id, batch_id, batch_date, table_id, file_id, status, error_message, stage, started_at, ended_at) VALUES('&quot;+&#10;    job_run_id +&quot;', '&quot;+&#10;    context.batch_run_id+&quot;', &quot;+&#10;    context.batch_id+&quot;, '&quot;+&#10;    context.batch_date+&quot;', &quot;+&#10;    context.table_id+&quot;, &quot;+&#10;    context.file_id+&quot;, '&quot;+&#10;    status_log+&quot;', '&quot;+&#10;    error_message+&quot;', '&quot;+&#10;    stage+&quot;', &quot;+&#10;    curr_timestamp+ &quot;, &quot; +&#10;    &quot;''&quot;&#10;    &quot;)&quot;;&#10;&#10;System.out.println(&quot;append_logs : &quot; + append_logs);&#10;globalMap.put(&quot;append_logs&quot;, append_logs);"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="//String batch_run_id = &quot;batch_&quot;+context.batch_name.toLowerCase()+&quot;_&quot;+ (System.currentTimeMillis() / 1000L);&#10;String job_run_id = &quot;job_&quot;+context.source_database.toLowerCase()+&quot;_&quot;+context.source_schema+&quot;_&quot;+context.source_table+&quot;_&quot;+(System.currentTimeMillis() / 1000L);&#10;System.out.println(&quot;job_run_id : &quot; + job_run_id);&#10;globalMap.put(&quot;job_run_id&quot;, job_run_id);&#10;&#10;String status_log = &quot;running&quot;;&#10;String error_message = &quot;&quot;;&#10;String stage = &quot;refined&quot;;&#10;String curr_timestamp =&quot;CURRENT_TIMESTAMP&quot;;&#10;    &#10;String append_logs = &quot;INSERT INTO audit_logs.job_logs&quot;+&#10;    &quot;\n(job_run_id, batch_run_id, batch_id, batch_date, table_id, file_id, status, error_message, stage, started_at, ended_at) VALUES('&quot;+&#10;    job_run_id +&quot;', '&quot;+&#10;    context.batch_run_id+&quot;', &quot;+&#10;    context.batch_id+&quot;, '&quot;+&#10;    context.batch_date+&quot;', &quot;+&#10;    context.table_id+&quot;, &quot;+&#10;    context.file_id+&quot;, '&quot;+&#10;    status_log+&quot;', '&quot;+&#10;    error_message+&quot;', '&quot;+&#10;    stage+&quot;', &quot;+&#10;    curr_timestamp+ &quot;, &quot; +&#10;    &quot;''&quot;&#10;    &quot;)&quot;;&#10;&#10;System.out.println(&quot;append_logs : &quot; + append_logs);&#10;globalMap.put(&quot;append_logs&quot;, append_logs);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1">
@@ -148,7 +148,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Xs07OR0iHl44t2lxfiapuVVjXg/SDeEB/+Z3QxwL"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:3NzGukg/XXPBpB/tAFX5HDXdAIL1tlA8xNdeC0Aw"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -210,7 +210,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.CONFIG_DB_Database"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.CONFIG_DB_AdditionalParams"/>
     <elementParameter field="TEXT" name="USER" value="context.CONFIG_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:scK7o/7kCoXdFgSYUqDvE8T9KmiCef5kjuHoNmE9ePsAtMwOVvS40LDf0q7Yq6zXZ8Z2xmgx"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:d1K6RbJiCgsGXq5E6o1DNpTDbs07PNrNFRDrBftW7CbZAv6ET7vAUq9EI3KLeIG5ZwUWusCN"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -245,13 +245,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_36ffccda-fe29-4e31-9cab-b7135f6e04e3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>5lJXzMWrqopOqdH1Erb/3KzJ3JfeQlqSpKSb7nYA9reU+fZym+K1vWA5F/n0UZ9JpzMWiC/JuLI/&#13;
-xPqihMo5Pg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b0c092a9-c5ba-47b7-9e17-39299ee2c9a0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+SIH7/BPgE3OQLMlmTrdFCIWl86P5dFsG8B/pL/y3/b3KwBi2LDf5E36BbpjWefT3UTPqfGOjxwK&#13;
-RYDAi0MqbA==</DigestValue></Reference></SignedInfo><SignatureValue>KfseTliO0GGqVgJoe0No4OzK5imB5vdPeuV/v1WlpBJ5ckBRSqlSkdnSIHRXngNVFyYoqt8Zq+T7&#13;
-s06Nq2G48NVHUJQd/vi6yCUElwlbPdBa8J/caLJFbENEPjf8wPHG12Ieo5wkt7KdlcHVmR7T2f9S&#13;
-PhAW9sZRuQm5X+DUfAqRZXqnhUoi2vxb6tYV6t01T/LlEHZnp1Z49PPeMsF4H1uS/Dva4VFd4zV7&#13;
-PQMwP1ceYpheBI7kBE48nv/HXrmANyqqR48vpFU1/M1sG0DEzUGioiTra/nA3DUrj4Wc3q+Or0HZ&#13;
-ZqOoq/zHl+HEMgrtxMZOBDzoOhSbzAuaQRu2YQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_78377b93-cc87-49ac-bf28-f998467f48a5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>gkMM0A8KeDE/t2N627O8+G/dx04a5OMkqoZwbtiyU8KFEK9jID9RMuvKQrySaW8cKrvWbV2/GC4B&#13;
+ADnHrRXl/w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_16764d09-f3ae-45b5-8249-24282e6c3ee4"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>EniqYQI+2OpXjtqpIO5+BLP9nYZtqsEZo4V9o91iXCQm9w6gqhNVlWA+p+qZtZw7w82pFJ4Wn0av&#13;
+wExus3XKYQ==</DigestValue></Reference></SignedInfo><SignatureValue>H3r4qMWmUhRmBl7shGgCXf3xsEy85W6LZBrv7zGwrS49FDqeDtaHZ53LbY+rbiKliudPFY9VqbJx&#13;
+rocml8O7mn0NWtxyTbmOhy3DMCBBaxui2R8WRJWTKMfX0E3cEGUwnsEUM5d3OCgkTRd8BFOlDUCL&#13;
+hwxcPTdkpBTDCRjcg+aY6q2uek/U57h6IZ+1VZ3f2MasMmQEVyCllMLl2PLctX7G1gLKBpaHPmGm&#13;
+ScrMaGdlVXaf7kKS9g+mKfXZBKS7Zr/bnm7NOXO3PJP9RWcHkHcCJ4vs7zuG7Z1RkgYLS8v1Yk9x&#13;
+sle5jO5PIb0sMiEyPTZPsZLy7H6Aqo5OIwg/4g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -273,4 +273,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b0c092a9-c5ba-47b7-9e17-39299ee2c9a0" Target="#_36ffccda-fe29-4e31-9cab-b7135f6e04e3"><Timestamp>2023-03-16 07:10:36</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_16764d09-f3ae-45b5-8249-24282e6c3ee4" Target="#_78377b93-cc87-49ac-bf28-f998467f48a5"><Timestamp>2023-03-16 07:10:58</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
