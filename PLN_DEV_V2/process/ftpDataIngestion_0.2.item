@@ -13,10 +13,10 @@
     <contextParameter comment="" internalId="_d4fgALM3Ee28t6Z1U2bQaw" name="CONFIG_DB_Server" prompt="CONFIG_DB_Server?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="10.1.87.98"/>
     <contextParameter comment="" internalId="_d4fgAbM3Ee28t6Z1U2bQaw" name="CONFIG_DB_AdditionalParams" prompt="CONFIG_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="serverTimezone=UTC&amp;allowMultiQueries=true"/>
     <contextParameter comment="" internalId="_d4fgArM3Ee28t6Z1U2bQaw" name="CONFIG_DB_Login" prompt="CONFIG_DB_Login?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="wandhi"/>
-    <contextParameter comment="" internalId="_d4fgA7M3Ee28t6Z1U2bQaw" name="CONFIG_DB_Password" prompt="CONFIG_DB_Password?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_Password" value="enc:system.encryption.key.v1:cN8h8taJOWOl2BLZW20qiCoD97BfWUPQFe+LXip9hum2NR93"/>
+    <contextParameter comment="" internalId="_d4fgA7M3Ee28t6Z1U2bQaw" name="CONFIG_DB_Password" prompt="CONFIG_DB_Password?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_Password" value="enc:system.encryption.key.v1:veD18L9ZU+2u+a6bWN+PO1eDv1ZWWIgflw7ws54wABg92va5"/>
     <contextParameter comment="" internalId="_d4fgBLM3Ee28t6Z1U2bQaw" name="CONFIG_DB_Database" prompt="CONFIG_DB_Database?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="config"/>
     <contextParameter comment="" internalId="_d4fgBbM3Ee28t6Z1U2bQaw" name="CONFIG_DB_Port" prompt="CONFIG_DB_Port?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="3306"/>
-    <contextParameter comment="" internalId="_d4guILM3Ee28t6Z1U2bQaw" name="encryption_key" prompt="encryption_key?" promptNeeded="false" repositoryContextId="_mrMqcKEdEe2FdogN07paGg" type="id_Password" value="enc:system.encryption.key.v1:ItMFK2kEYkThf68QskykHneYPJOddHUiOYXnxgXEtTaolHG1RynhSQ4K6pU7LuwdzQHa6b/nDj5nSug0CG5AslW0A/2nWLIx"/>
+    <contextParameter comment="" internalId="_d4guILM3Ee28t6Z1U2bQaw" name="encryption_key" prompt="encryption_key?" promptNeeded="false" repositoryContextId="_mrMqcKEdEe2FdogN07paGg" type="id_Password" value="enc:system.encryption.key.v1:WIGX726AgoOAsZf5WAgOTowhgHnk7msr0MPnIqHm9eNetKIE95wZBAgYQk6lp9biNBy2FSOKvv1Eg3V0PE+ov+RLJMr2XbyE"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -61,7 +61,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:ZX5jKpeESfKEbrtgg2oFacc5rwQ/25+9RJech+pi"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:Xc4SSfn9T4nbQ1o2XBp7aoQkBKoe4wjZU5/tePGr"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -96,7 +96,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:FLv1NzvF42f6RTmG3cIkFHBy16BAIHkOZg1CSfAM"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:hhmFX+8sCIu1DBTDePljbnJRdh7WmwMcTallYKtM"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -146,7 +146,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.CONFIG_DB_Database"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.CONFIG_DB_AdditionalParams"/>
     <elementParameter field="TEXT" name="USER" value="context.CONFIG_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:AcEP9D/y0pvKWKhwSW1avilhEm+ZgXx4VsAo/467jbCD99doUD01fVN5oKtiRPeMj05Jq/0o"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:i3fQ4NHfcbm2Wh8eHfsFvO2R/7ltLkUx5cW4Mb2s4K+6XXdZiXozUdSV96uJ08hqfWbfc0hY"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -168,7 +168,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:RG4hVcsbtdpFdnJoYkCvqIPgrSs3E601mjnfMdQF"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:gCDK7JDfsFkR+NyV2dmQqsQ/RiwsLZkenxcrdtsI"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -240,8 +240,8 @@
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CLOSED_LIST" name="SECRET_TYPE" value="CRYPTO_KEY"/>
     <elementParameter field="CLOSED_LIST" name="CRYPTO_METHOD" value="AES"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:64tigqRfsK262Nj+wv7xDKQ6y0DNTTm35D0nAcemc0cMHFH/gmXqbLf/h3r/buigXYA="/>
-    <elementParameter field="PASSWORD" name="PASSWORD_M1" show="false" value="enc:system.encryption.key.v1:+2UBWDUqG/gtRSpZo4RVZW22goixfEFv9GSflGCJ"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:esB0YfIQcxWva+OMZkmCoAlzhYLiZEgUSQm0CfiRZtXkCKHFcr8uddpakTzprE+TBig="/>
+    <elementParameter field="PASSWORD" name="PASSWORD_M1" show="false" value="enc:system.encryption.key.v1:/scBHrViBYm/23WytiQpSesVp3oN/MLI123Af9/z"/>
     <elementParameter field="FILE" name="CRYPTO_FILE_PATH" show="false" value="&quot;&quot;"/>
     <elementParameter field="TABLE" name="TABLE_CONFIG">
       <elementValue elementRef="SCHEMA_COLUMN" value="host"/>
@@ -444,12 +444,12 @@
     <elementParameter field="TEXT" name="PORT" value="22"/>
     <elementParameter field="TEXT" name="USER" value="&quot;hadoop_user&quot;"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" value="PASSWORD"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:CiCR09SEiwD7NaOPOd/LsYpcCn40F+0ZjHjppGe28MzsI4ftCtE="/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:bajsR/KN6a0zyP5xAoeZBq0AimGb7LZY3VN17/ePOzcKqF27ueo="/>
     <elementParameter field="CHECK" name="PTY" value="false"/>
     <elementParameter field="CLOSED_LIST" name="STANDARDOUTPUT" value="TO_CONSOLE"/>
     <elementParameter field="CLOSED_LIST" name="ERROROUTPUT" value="TO_CONSOLE"/>
     <elementParameter field="FILE" name="PRIVATEKEY" show="false" value="&quot;/.ssh/id_dsa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:cOd7JJ3S4JW14UciCPmRRnyGHpKi0HqE76Hc1bZu/zEnfhMQ"/>
+    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:RFkuFYr+6XcCe805ML7HH1jW8cpzJd/b5CQa3brDIjavCqt5"/>
     <elementParameter field="TEXT" name="COMMANDSEPARATOR" value="&quot; &amp;&amp; &quot;"/>
     <elementParameter field="TABLE" name="COMMANDS">
       <elementValue elementRef="COMMAND" value="&quot;source /home/hadoop_user/ingestion/venv/bin/activate&quot;"/>
@@ -471,7 +471,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:YS8lTxubx6pD2ycVYGgVG+EsiFnkvfaSowlP5pmr"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:wVT22q/ch8a0GL200Whw7dH1CafHQWGjeCqfxmtW"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -517,7 +517,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Starting job!!&quot;);&#10;&#10;System.out.println(&quot;&gt;&gt;batch_name : &quot; + context.batch_name);&#10;System.out.println(&quot;&gt;&gt;batch_date : &quot; + context.batch_date);&#10;&#10;// set batch date vars&#10;String[] spl_date= ((String)globalMap.get(&quot;row3.batch_date&quot;)).split(&quot;-&quot;);&#10;&#10;String year = spl_date[0];&#10;System.out.println(&quot;Year: &quot; + year);&#10;globalMap.put(&quot;year&quot;, year);&#10;&#10;String month = spl_date[1];&#10;System.out.println(&quot;Month: &quot; + month);&#10;globalMap.put(&quot;month&quot;, month);&#10;&#10;String day = spl_date[2];&#10;if (((String)globalMap.get(&quot;row3.load_frequency&quot;)).toLowerCase().equals(&quot;monthly&quot;)) {&#10;  day = &quot;01&quot;;&#10;}&#10;System.out.println(&quot;Day: &quot; + day);&#10;globalMap.put(&quot;day&quot;, day);&#10;&#10;&#10;String batch_run_id = &quot;batch_&quot;+context.batch_name.toLowerCase()+&quot;_&quot;+ (System.currentTimeMillis() / 1000L);&#10;System.out.println(&quot;batch_run_id : &quot; + batch_run_id);&#10;globalMap.put(&quot;batch_run_id&quot;, batch_run_id);&#10;&#10;&#10;System.out.println(&quot;inserting batch log&quot;);&#10;&#10;String status_log = &quot;running&quot;;&#10;String batch_error_message = &quot;&quot;;&#10;String stage = &quot;raw&quot;;&#10;String curr_timestamp =&quot;CURRENT_TIMESTAMP&quot;;&#10;&#10;String append_batch_logs = &quot;INSERT INTO audit_logs.batch_logs &quot;+&#10;    &quot;\n(batch_run_id, batch_id, batch_name, batch_date, status, error_message, stage, started_at) VALUES('&quot;+&#10;    batch_run_id +&quot;', &quot;+&#10;    ((String)globalMap.get(&quot;row3.batch_id&quot;)).toString() +&quot;, '&quot;+&#10;    context.batch_name+&quot;', '&quot;+&#10;    ((String)globalMap.get(&quot;row3.batch_date&quot;))+&quot;', '&quot;+&#10;    status_log+&quot;', '&quot;+&#10;    batch_error_message+&quot;', '&quot;+&#10;    stage+&quot;', &quot;+&#10;    curr_timestamp+&#10;    &quot;)&quot;;&#10;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Starting job!!&quot;);&#10;&#10;System.out.println(&quot;&gt;&gt;batch_name : &quot; + context.batch_name);&#10;System.out.println(&quot;&gt;&gt;batch_date : &quot; + context.batch_date);&#10;&#10;// set batch date vars&#10;String[] spl_date= ((String)globalMap.get(&quot;row3.batch_date&quot;)).split(&quot;-&quot;);&#10;&#10;String year = spl_date[0];&#10;System.out.println(&quot;Year: &quot; + year);&#10;globalMap.put(&quot;year&quot;, year);&#10;&#10;String month = spl_date[1];&#10;System.out.println(&quot;Month: &quot; + month);&#10;globalMap.put(&quot;month&quot;, month);&#10;&#10;String day = spl_date[2];&#10;if (((String)globalMap.get(&quot;row3.load_frequency&quot;)).toLowerCase().equals(&quot;monthly&quot;)) {&#10;  day = &quot;01&quot;;&#10;}&#10;System.out.println(&quot;Day: &quot; + day);&#10;globalMap.put(&quot;day&quot;, day);&#10;&#10;&#10;String batch_run_id = &quot;batch_&quot;+context.batch_name.toLowerCase()+&quot;_&quot;+ (System.currentTimeMillis() / 1000L);&#10;System.out.println(&quot;batch_run_id : &quot; + batch_run_id);&#10;globalMap.put(&quot;batch_run_id&quot;, batch_run_id);&#10;&#10;&#10;System.out.println(&quot;inserting batch log&quot;);&#10;&#10;String status_log = &quot;running&quot;;&#10;String batch_error_message = &quot;&quot;;&#10;String stage = &quot;raw&quot;;&#10;String curr_timestamp =&quot;CURRENT_TIMESTAMP&quot;;&#10;&#10;String append_batch_logs = &quot;INSERT INTO audit_logs.batch_logs &quot;+&#10;    &quot;\n(batch_run_id, batch_id, batch_name, batch_date, status, error_message, stage, started_at) VALUES('&quot;+&#10;    batch_run_id +&quot;', &quot;+&#10;    ((String)globalMap.get(&quot;row3.batch_id&quot;)) +&quot;, '&quot;+&#10;    context.batch_name+&quot;', '&quot;+&#10;    ((String)globalMap.get(&quot;row3.batch_date&quot;))+&quot;', '&quot;+&#10;    status_log+&quot;', '&quot;+&#10;    batch_error_message+&quot;', '&quot;+&#10;    stage+&quot;', &quot;+&#10;    curr_timestamp+&#10;    &quot;)&quot;;&#10;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="LABEL" value="SET_BATCH_VARIABLES"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -534,7 +534,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:68WasUuwUSlqpqVydXxGpp2Qomb8rjBLsvIx88Ae"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:YHhd9siQvxOI2EgDLzF6bT0VFehTt37lIT4TSwzk"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -586,7 +586,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:O3ya6lO/JpP9eAnZ5AptdJtjUXVa1vf5L/gV/5aW"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:WsoUIg+xhvtE+Mya3G+D8ol4xaZXQvdhiZKF4oxT"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -648,7 +648,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:9naA0HhkMPujHp14m2EYHNLsbEit7GJCrrMnSDAL"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:lRmMMWpK9WGqltDbxSu/7agMf+GFJlqtlYlIZ89R"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -688,7 +688,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:2Egw/fjoI4CmzmdSQUWIiFRZmTGUvo+jR1A8cbDr"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:kvhqvyJ7b7nHayyF9DCt9xuc+uDWXy2iI1GEWCdY"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -862,13 +862,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6db508b0-2c28-4c81-8b70-bf2dad3b080d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>T53jgC02g0HmiqZmMO2lQSOBwXzQ+EB0GzhAWpNOfhMyGAEvVfrDL+mGVtsQz232r8+bcH3U1lSj&#13;
-utHATX/XOw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0b10752d-0dd1-4d5e-84b9-f1c1a0b0865d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Vt2YwDhGjiY8PPEK7u8hA5rfa65rxr5dX5WterB+euI5kl22t5ftFDvIqoYN4MyZoZqcTdic8gWb&#13;
-QIz/UjfdFg==</DigestValue></Reference></SignedInfo><SignatureValue>NL2XluFm5c1DaDNJpYj58IdAtJrOsa9ZhJCxZpDvuPQk63UEwA4EAu8KF1u/lihb8Bwni7v24XRs&#13;
-5ALl/1O/8YQFvuStbMFVh3FkhC9v+TktpLdG+BjK81vBvnDYese0cRVLO0k+XZYdfnWhQziDm6rG&#13;
-srysXOdm+CLW7qH1o2HswYPpsoGTkU3uMW8WeHg9oMukz5P2GIKzcw80ogHb7acgSug8Vlz1yFqz&#13;
-CenCx/0+VZkw0fh/URSumnSkVP/47OUpYF1bMUS+FBdYAJeD+gorANFWa8j78eQe3AGwsMGZaeQW&#13;
-iD4oZH8A1W/evDOfVOoRhiiqQzc8ppVmJqWaDA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0288bf8d-faf1-495e-a137-004eaf6455db"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>VXoD9bqjKxmJt9D3GB6z+f7+//YTjWYDBw4lGj8WB65RveBpHGZDK0SIANidqwAx6Hcas59DsTfD&#13;
+zWGoJIi+fw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e4d133a9-0852-4a51-b075-89f453379c9e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>B45UvG1IKtwx447VGtUUCyLEu/XxtR/9Kwf4hjv8Zqe8X1aulf75qOk/TcGSzNEo2JGpfR54izJp&#13;
+GWuaUfRzhw==</DigestValue></Reference></SignedInfo><SignatureValue>iB29OLYF/I/+lSyLLKu68Rlp8qbn/UKC8rYsW/5cHIiHlb5U2NJevCK9zafGwCQhjJQZCy50/qDa&#13;
++AuhOObdnfiUX7Jlt8INB3XFGJcUvXuA8RnUoTT7bOKhscN8PQYkdMDJ1S7WapxpEn7NxWugQyzJ&#13;
+uWJq2ajoXyvrmkdDA42fHDak51pmvUWw0oK077KLHKloTT5lxhbQaEJsCFSV0EQXA7I7wH2Uzx51&#13;
+M+Tnu2TdAzhunufh9rgXIBNuXtLgQaaYZw7SmdIQKZgzw/qiZaHANZ3oQ6uIokiNqrJX9az+eWo0&#13;
+0Lr9nh+dbch8cbmxfJUfMFibd6XsliduRmVaIg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -890,4 +890,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0b10752d-0dd1-4d5e-84b9-f1c1a0b0865d" Target="#_6db508b0-2c28-4c81-8b70-bf2dad3b080d"><Timestamp>2023-03-30 02:40:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e4d133a9-0852-4a51-b075-89f453379c9e" Target="#_0288bf8d-faf1-495e-a137-004eaf6455db"><Timestamp>2023-03-30 02:41:26</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
