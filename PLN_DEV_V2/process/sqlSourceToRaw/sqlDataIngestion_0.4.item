@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" framework="" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" internalId="_GedWwKRKEe23z_qJVrWyEg" name="batch_name" prompt="batch_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;ap2ttrain_2a&quot;"/>
-    <contextParameter comment="" internalId="_0G1VwKUmEe23z_qJVrWyEg" name="CONFIG_DB_AdditionalParams" prompt="CONFIG_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="serverTimezone=UTC&amp;allowMultiQueries=true"/>
-    <contextParameter comment="" internalId="_0G1VwaUmEe23z_qJVrWyEg" name="CONFIG_DB_Database" prompt="CONFIG_DB_Database?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="config"/>
-    <contextParameter comment="" internalId="_0G1VwqUmEe23z_qJVrWyEg" name="CONFIG_DB_Login" prompt="CONFIG_DB_Login?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="wandhi"/>
-    <contextParameter comment="" internalId="_0G1Vw6UmEe23z_qJVrWyEg" name="CONFIG_DB_Password" prompt="CONFIG_DB_Password?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_Password" value="enc:system.encryption.key.v1:hN4FOn1HZaru7ULoJARnoLQJQDo4XFhej8WtHFEAClcAMiv2"/>
-    <contextParameter comment="" internalId="_0G1VxKUmEe23z_qJVrWyEg" name="CONFIG_DB_Port" prompt="CONFIG_DB_Port?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="3306"/>
-    <contextParameter comment="" internalId="_0G1VxaUmEe23z_qJVrWyEg" name="CONFIG_DB_Server" prompt="CONFIG_DB_Server?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="10.1.87.98"/>
-    <contextParameter comment="" internalId="_0G1VxqUmEe23z_qJVrWyEg" name="encryption_key" prompt="encryption_key?" promptNeeded="false" repositoryContextId="_mrMqcKEdEe2FdogN07paGg" type="id_Password" value="enc:system.encryption.key.v1:e01SwJX3fJA/i00Bkt5HnP5VsiI1qiSovIIAiPg+giXdXWxP0FhruZ3TbDbW019vBJdnyoPz08QFThRJZ++6D0VyGI/PLFfb"/>
-    <contextParameter comment="" internalId="_lqGZAKYvEe23z_qJVrWyEg" name="batch_date" prompt="batch_date?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;2023-02-01&quot;"/>
-    <contextParameter comment="" internalId="_Uf78UKeeEe2AWYwdn52wRA" name="num_parallel" prompt="num_parallel?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1"/>
-    <contextParameter comment="" internalId="_WiN8wKw2Ee2UBLippJdzMQ" name="file_id" prompt="file_id?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="0"/>
+    <contextParameter comment="" internalId="_lqGZAKYvEe23z_qJVrWyEg" name="batch_date" prompt="batch_date?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;2023-01-23&quot;"/>
+    <contextParameter comment="" internalId="_GedWwKRKEe23z_qJVrWyEg" name="batch_name" prompt="batch_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;rdbsilm_1&quot;"/>
+    <contextParameter comment="" internalId="_Uf78UKeeEe2AWYwdn52wRA" name="num_parallel" prompt="num_parallel?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="5"/>
+    <contextParameter comment="" internalId="_0G1VxqUmEe23z_qJVrWyEg" name="encryption_key" prompt="encryption_key?" promptNeeded="false" repositoryContextId="_mrMqcKEdEe2FdogN07paGg" type="id_Password" value="enc:system.encryption.key.v1:eC2cul0RuONx6zjqaN908iFE//PQHBGSX6puMHh3TV5nCZLOLoM0jX8FeZZSMqYDlLfR6ElyhopexTPfhxdacwo4icm8B3OV"/>
+    <contextParameter comment="" internalId="_ywKD8MO1Ee2QXegRsQpc4A" name="CONFIG_DB_Server" prompt="CONFIG_DB_Server?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="10.1.87.98"/>
+    <contextParameter comment="" internalId="_ywKD8cO1Ee2QXegRsQpc4A" name="CONFIG_DB_AdditionalParams" prompt="CONFIG_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="serverTimezone=UTC&amp;allowMultiQueries=true"/>
+    <contextParameter comment="" internalId="_ywKD8sO1Ee2QXegRsQpc4A" name="CONFIG_DB_Login" prompt="CONFIG_DB_Login?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="wandhi"/>
+    <contextParameter comment="" internalId="_ywKD88O1Ee2QXegRsQpc4A" name="CONFIG_DB_Database" prompt="CONFIG_DB_Database?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="config"/>
+    <contextParameter comment="" internalId="_ywKD9MO1Ee2QXegRsQpc4A" name="CONFIG_DB_Password" prompt="CONFIG_DB_Password?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_Password" value="enc:system.encryption.key.v1:sakmvvbZzsXfqbnkyof1A+AwubkZvq/OqmKvMB/A53Wczooy"/>
+    <contextParameter comment="" internalId="_ywKD9cO1Ee2QXegRsQpc4A" name="CONFIG_DB_Port" prompt="CONFIG_DB_Port?" promptNeeded="false" repositoryContextId="_sF3p0KLSEe2nOrROvVQp2A" type="id_String" value="3306"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -55,7 +54,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:DdPu7dLDO338kqMQTAd6V/gbdTVdnhTlQHKpscrF"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:iAG5vxN2wiVfxWojhKggUUgzHeqYyJ6qet2uxPNu"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -90,7 +89,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Pfktnn8qd6GKuJUIUILJfv6Gq8evHyiOcGqaZuF8"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:l14G1Zz8YFDHdw45ngmIqn70q610UOcdWIl9s2hJ"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -125,49 +124,11 @@
     <routinesParameter id="_FnT_8KCzEe2V6OsRf0U83A" name="TalendStringUtil"/>
     <routinesParameter id="_FnOgYKCzEe2V6OsRf0U83A" name="TalendString"/>
   </parameters>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="192">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="//STATUS &#10;System.out.println(&quot;running!!&quot;);&#10;&#10;&#10;String batch_run_id = &quot;batch_&quot;+context.batch_name.toLowerCase()+&quot;_&quot;+ (System.currentTimeMillis() / 1000L);&#10;System.out.println(&quot;batch_run_id : &quot; + batch_run_id);&#10;globalMap.put(&quot;batch_run_id&quot;, batch_run_id);&#10;"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
-    <elementParameter field="TEXT" name="LABEL" value="SET_BATCH_VARIABLES"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tJava_1">
-      <column comment="" key="false" length="-1" name="batch_run_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="batch_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="batch_date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="status_batch_log" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="batch_error_message" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="stage" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="process_at" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
-    </metadata>
-  </node>
   <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="64">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_gcWB8KLSEe2nOrROvVQp2A"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
-    <elementParameter field="TEXT" name="HOST" value="context.CONFIG_DB_Server"/>
-    <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
-    <elementParameter field="TEXT" name="PORT" value="context.CONFIG_DB_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.CONFIG_DB_Database"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.CONFIG_DB_AdditionalParams"/>
-    <elementParameter field="TEXT" name="USER" value="context.CONFIG_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Bn3aHL/W4Z8NhzDH2P7U75ODZJLpPcQRV461xv16gbtNkBH8THUQU7fR1h12sOo9GNn/eBlb"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="AUTO_COMMIT" value="true"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-  </node>
-  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="480">
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="512">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
@@ -177,13 +138,13 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:rypWo9/Fx/zaotVu9ZKznNGNZEUd2vHQHz4JT6rA"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:M6/j6naYblCJ0v7HBxu7w0d0NDJlCNhy+KYBHx5W"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select c.url, c.driver, c.username, c.password, c.additional_parameter, t.table_id, t.source_database, t.source_schema, t.source_table, t.source_dblink, t.target_format, t.target_location, t.load_frequency , t.type_table, t.filter_query, t.compression, t.is_enabled, t.job_scale, b.batch_id,t.notes&#10;from config.table_extraction_config t&#10;inner join config.batch_config b on t.batch_id = b.batch_id &#10;inner join config.connections c on b.conn_id = c.conn_id&#10;where b.is_enabled = 'Y' and t.is_enabled = 'Y' and batch_name='&quot; + context.batch_name + &quot;'&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select c.url, c.driver, c.username, c.password, c.additional_parameter, t.table_id, t.source_database, t.source_schema, t.source_table, t.source_dblink, t.target_location, b.load_frequency , t.type_table, t.filter_query, t.is_enabled, t.job_scale, b.batch_id,t.notes, t.custom_schema&#13;&#10;from config.table_extraction_config t&#13;&#10;inner join config.batch_config b on t.batch_id = b.batch_id &#13;&#10;inner join config.connections c on b.conn_id = c.conn_id&#13;&#10;where b.is_enabled = 'Y' and t.is_enabled = 'Y' and batch_name= lower('&quot; + context.batch_name &#13;&#10;+ &quot;') and t.table_id not in (&#13;&#10;&#9;select distinct table_id &#13;&#10;&#9;from audit_logs.job_logs&#13;&#10;&#9;where status = 'succeeded' and batch_date = '&quot;+ globalMap.get(&quot;year&quot;) +&quot;-&quot; + globalMap.get(&quot;month&quot;) + &quot;-&quot; + globalMap.get(&quot;day&quot;) + &quot;')&quot;"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -214,8 +175,6 @@
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="source_dblink"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="target_format"/>
-      <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="target_location"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="load_frequency"/>
@@ -224,8 +183,6 @@
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="filter_query"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="compression"/>
-      <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="is_enabled"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="job_scale"/>
@@ -233,6 +190,8 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="batch_id"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="notes"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="custom_schema"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -247,24 +206,23 @@
       <column comment="" key="false" length="30" name="source_schema" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="source_table" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="source_dblink" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="target_format" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="150" name="target_location" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="load_frequency" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="150" name="type_table" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="200" name="filter_query" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="compression" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="is_enabled" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="job_scale" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="11" name="batch_id" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="1000" name="notes" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="custom_schema" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tDataDecrypt" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="480">
+  <node componentName="tDataDecrypt" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="512">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDataDecrypt_1"/>
     <elementParameter field="CLOSED_LIST" name="SECRET_TYPE" value="CRYPTO_KEY"/>
     <elementParameter field="CLOSED_LIST" name="CRYPTO_METHOD" value="AES"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:KPjD331+l2bgG0PUV0Bdnv/4oOZe37GJ88H2dzSZoeozteOAStM4yVR0fWsQdlLesD4="/>
-    <elementParameter field="PASSWORD" name="PASSWORD_M1" show="false" value="enc:system.encryption.key.v1:tYQnnqiWtAAJ6UkhlWTkI8grdA9zntF91qgOpE+N"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:urCv1eA6tHKeHWv8Xx90AKD2mpHEAtcqCGtVCjU2viJMm4glIV/rF++JsA1FWho/z7w="/>
+    <elementParameter field="PASSWORD" name="PASSWORD_M1" show="false" value="enc:system.encryption.key.v1:eKmDioieRKRnOOSLXx2RST7Wcaf2Fr5KdkFwJnp+"/>
     <elementParameter field="FILE" name="CRYPTO_FILE_PATH" show="false" value="&quot;&quot;"/>
     <elementParameter field="TABLE" name="TABLE_CONFIG">
       <elementValue elementRef="SCHEMA_COLUMN" value="url"/>
@@ -287,8 +245,6 @@
       <elementValue elementRef="COLUMNS_DECRYPT" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="source_dblink"/>
       <elementValue elementRef="COLUMNS_DECRYPT" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="target_format"/>
-      <elementValue elementRef="COLUMNS_DECRYPT" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="target_location"/>
       <elementValue elementRef="COLUMNS_DECRYPT" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="load_frequency"/>
@@ -297,8 +253,6 @@
       <elementValue elementRef="COLUMNS_DECRYPT" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="filter_query"/>
       <elementValue elementRef="COLUMNS_DECRYPT" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="compression"/>
-      <elementValue elementRef="COLUMNS_DECRYPT" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="is_enabled"/>
       <elementValue elementRef="COLUMNS_DECRYPT" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="job_scale"/>
@@ -306,6 +260,8 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="batch_id"/>
       <elementValue elementRef="COLUMNS_DECRYPT" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="notes"/>
+      <elementValue elementRef="COLUMNS_DECRYPT" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="custom_schema"/>
       <elementValue elementRef="COLUMNS_DECRYPT" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
@@ -322,19 +278,18 @@
       <column comment="" key="false" length="30" name="source_schema" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="source_table" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="source_dblink" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="target_format" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="150" name="target_location" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="load_frequency" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="150" name="type_table" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="200" name="filter_query" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="compression" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="is_enabled" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="job_scale" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="11" name="batch_id" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="1000" name="notes" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="custom_schema" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="448" posY="480">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="448" posY="512">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
@@ -359,19 +314,15 @@
       <column comment="" key="false" length="30" name="source_schema" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="source_table" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="source_dblink" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="target_format" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="150" name="target_location" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="load_frequency" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="200" name="filter_query" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="compression" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="is_enabled" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="job_scale" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="11" name="batch_id" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="1000" name="notes" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="150" name="type_table" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-    </metadata>
-    <metadata connector="FLOW" name="out2">
-      <column comment="" defaultValue="" key="false" length="11" name="batch_id" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="custom_schema" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties/>
@@ -387,19 +338,15 @@
         <mapperTableEntries expression="row2.source_schema " name="source_schema" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.source_table " name="source_table" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.source_dblink == null ? &quot;&quot; : row2.source_dblink " name="source_dblink" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.target_format " name="target_format" nullable="true" type="id_String"/>
         <mapperTableEntries expression="StringHandling.DOWNCASE(row2.target_location )" name="target_location" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.load_frequency " name="load_frequency" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.filter_query " name="filter_query" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.compression " name="compression" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.is_enabled " name="is_enabled" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.job_scale" name="job_scale" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.batch_id " name="batch_id" type="id_Integer"/>
         <mapperTableEntries expression="row2.notes " name="notes" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.type_table " name="type_table" nullable="true" type="id_String"/>
-      </outputTables>
-      <outputTables name="out2" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="row2.batch_id " name="batch_id" type="id_Integer"/>
+        <mapperTableEntries expression="row2.custom_schema == null ? &quot;&quot; : row2.custom_schema " name="custom_schema" nullable="true" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row2" sizeState="INTERMEDIATE">
         <mapperTableEntries name="url" nullable="true" type="id_String"/>
@@ -412,29 +359,28 @@
         <mapperTableEntries name="source_schema" nullable="true" type="id_String"/>
         <mapperTableEntries name="source_table" nullable="true" type="id_String"/>
         <mapperTableEntries name="source_dblink" nullable="true" type="id_String"/>
-        <mapperTableEntries name="target_format" nullable="true" type="id_String"/>
         <mapperTableEntries name="target_location" nullable="true" type="id_String"/>
         <mapperTableEntries name="load_frequency" nullable="true" type="id_String"/>
         <mapperTableEntries name="type_table" nullable="true" type="id_String"/>
         <mapperTableEntries name="filter_query" nullable="true" type="id_String"/>
-        <mapperTableEntries name="compression" nullable="true" type="id_String"/>
         <mapperTableEntries name="is_enabled" nullable="true" type="id_String"/>
         <mapperTableEntries name="job_scale" nullable="true" type="id_String"/>
         <mapperTableEntries name="batch_id" type="id_Integer"/>
         <mapperTableEntries name="notes" nullable="true" type="id_String"/>
+        <mapperTableEntries name="custom_schema" nullable="true" type="id_String"/>
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="480">
+  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="512">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFlowToIterate_1"/>
     <elementParameter field="CHECK" name="DEFAULT_MAP" value="true"/>
     <elementParameter field="TABLE" name="MAP" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFlowToIterate_1"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="480">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="512">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;================&quot;);&#10;&#10;System.out.println(&quot;source_schema : &quot; + ((String)globalMap.get(&quot;out1.source_schema&quot;)));&#10;System.out.println(&quot;source_table : &quot; + ((String)globalMap.get(&quot;out1.source_table&quot;)));&#10;System.out.println(&quot;source_dblink : &quot; + ((String)globalMap.get(&quot;out1.source_dblink&quot;)));&#10;System.out.println(&quot;source_database : &quot; + ((String)globalMap.get(&quot;out1.source_database&quot;)));&#10;System.out.println(&quot;url : &quot; + ((String)globalMap.get(&quot;out1.url&quot;)));&#10;System.out.println(&quot;driver : &quot; + ((String)globalMap.get(&quot;out1.driver&quot;)));&#10;System.out.println(&quot;username : &quot; + ((String)globalMap.get(&quot;out1.username&quot;)));&#10;&#10;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;================&quot;);&#10;&#10;System.out.println(&quot;source_schema : &quot; + ((String)globalMap.get(&quot;out1.source_schema&quot;)));&#10;System.out.println(&quot;source_table : &quot; + ((String)globalMap.get(&quot;out1.source_table&quot;)));&#10;System.out.println(&quot;source_dblink : &quot; + ((String)globalMap.get(&quot;out1.source_dblink&quot;)));&#10;System.out.println(&quot;source_database : &quot; + ((String)globalMap.get(&quot;out1.source_database&quot;)));&#10;System.out.println(&quot;additional_params : &quot; + ((String)globalMap.get(&quot;out1.additional_params&quot;)));&#10;System.out.println(&quot;url : &quot; + ((String)globalMap.get(&quot;out1.url&quot;)));&#10;System.out.println(&quot;driver : &quot; + ((String)globalMap.get(&quot;out1.driver&quot;)));&#10;System.out.println(&quot;username : &quot; + ((String)globalMap.get(&quot;out1.username&quot;)));&#10;System.out.println(&quot;batch_id : &quot; + globalMap.get(&quot;out1.batch_id&quot;));&#10;&#10;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_2">
@@ -447,7 +393,7 @@
       <column comment="" key="false" length="-1" name="process_at" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1056" posY="480">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1056" posY="512">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
@@ -461,17 +407,17 @@
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
       <elementValue elementRef="PARAM_NAME_COLUMN" value="batch_date"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.batch_date"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="globalMap.get(&quot;batch_date&quot;)"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="load_frequency"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="((String)globalMap.get(&quot;out1.load_frequency&quot;))"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="target_location"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="((String)globalMap.get(&quot;out1.target_location&quot;))"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="source_database"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="((String)globalMap.get(&quot;out1.source_database&quot;)).toLowerCase()"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="((String)globalMap.get(&quot;out1.source_database&quot;))"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="source_schema"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="((String)globalMap.get(&quot;out1.source_schema&quot;)).toLowerCase()"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="((String)globalMap.get(&quot;out1.source_schema&quot;))"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="source_table"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="((String)globalMap.get(&quot;out1.source_table&quot;)).toLowerCase()"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="((String)globalMap.get(&quot;out1.source_table&quot;))"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="url"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="((String)globalMap.get(&quot;out1.url&quot;))"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="driver"/>
@@ -498,8 +444,14 @@
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="((Integer)globalMap.get(&quot;out1.batch_id&quot;))"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="batch_name"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.batch_name"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="file_id"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.file_id"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="custom_schema"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="((String)globalMap.get(&quot;out1.custom_schema&quot;))"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="year"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="globalMap.get(&quot;year&quot;)"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="month"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="globalMap.get(&quot;month&quot;)"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="day"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="globalMap.get(&quot;day&quot;)"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -517,94 +469,6 @@
       <column comment="" key="false" length="-1" name="status_batch_log" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tUniqRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="352">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tUniqRow_1"/>
-    <elementParameter field="TABLE" name="UNIQUE_KEY">
-      <elementValue elementRef="SCHEMA_COLUMN" value="batch_id"/>
-      <elementValue elementRef="KEY_ATTRIBUTE" value="false"/>
-      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="ONLY_ONCE_EACH_DUPLICATED_KEY" value="false"/>
-    <elementParameter field="CHECK" name="IS_VIRTUAL_COMPONENT" value="false"/>
-    <elementParameter field="OPENED_LIST" name="BUFFER_SIZE" show="false" value="M"/>
-    <elementParameter field="DIRECTORY" name="TEMP_DIRECTORY" show="false" value=""/>
-    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tUniqRow_1">
-      <column comment="" defaultValue="" key="false" length="11" name="batch_id" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-    </metadata>
-    <metadata connector="UNIQUE" name="UNIQUE">
-      <column comment="" defaultValue="" key="false" length="11" name="batch_id" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-    </metadata>
-    <metadata connector="DUPLICATE" name="DUPLICATE">
-      <column comment="" defaultValue="" key="false" length="11" name="batch_id" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="864" posY="352">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFlowToIterate_2"/>
-    <elementParameter field="CHECK" name="DEFAULT_MAP" value="true"/>
-    <elementParameter field="TABLE" name="MAP" show="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tFlowToIterate_2"/>
-  </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="992" posY="352">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_3"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;inserting batch log&quot;);&#10;&#10;String status_log = &quot;running&quot;;&#10;String batch_error_message = &quot;&quot;;&#10;String stage = &quot;raw&quot;;&#10;String curr_timestamp =&quot;CURRENT_TIMESTAMP&quot;;&#10;    &#10;String append_batch_logs = &quot;INSERT INTO audit_logs.batch_logs &quot;+&#10;    &quot;\n(batch_run_id, batch_id, batch_name, batch_date, status, error_message, stage, process_at) VALUES('&quot;+&#10;    globalMap.get(&quot;batch_run_id&quot;)+&quot;', &quot;+&#10;    ((Integer)globalMap.get(&quot;row3.batch_id&quot;)).toString() +&quot;, '&quot;+&#10;    context.batch_name+&quot;', '&quot;+&#10;    context.batch_date+&quot;', '&quot;+&#10;    status_log+&quot;', '&quot;+&#10;    batch_error_message+&quot;', '&quot;+&#10;    stage+&quot;', &quot;+&#10;    curr_timestamp+&#10;    &quot;)&quot;;&#10;&#10;System.out.println(&quot;append_batch_logs : &quot; + append_batch_logs);&#10;globalMap.put(&quot;append_batch_logs&quot;, append_batch_logs);&#10;"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tJava_3"/>
-  </node>
-  <node componentName="tMysqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="352">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_1"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
-    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
-    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:eKKU1zccxKS0nGULH55nkr4xMqWnPTyJOKZ2cAyw"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="((String)globalMap.get(&quot;append_batch_logs&quot;))"/>
-    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
-    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value="batch_run_id"/>
-    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
-    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
-    <elementParameter field="TEXT" name="LABEL" value="INSERT_BATCH_LOGS"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tDBRow_1">
-      <column comment="" key="false" length="-1" name="batch_run_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="batch_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="batch_date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="status_batch_log" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="batch_error_message" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="stage" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="process_at" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
-    </metadata>
-    <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="false" length="-1" name="batch_run_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="batch_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="batch_date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="status_batch_log" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="batch_error_message" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="stage" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="process_at" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
   <node componentName="tMysqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="832">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_2"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
@@ -615,16 +479,16 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:V+B2/ia11Cn0UCzdOBwYgp/FebJuGlmPcRV028lg"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:h85S5DX0fvtC9Vim4syLy8GMtPnTNVHiUsGhYwGI"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;UPDATE audit_logs.batch_logs SET status='success' WHERE batch_run_id='&quot;+globalMap.get(&quot;batch_run_id&quot;)+&quot;'&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;UPDATE audit_logs.batch_logs SET status='succeeded', error_message=null, ended_at=CURRENT_TIMESTAMP WHERE batch_run_id='&quot;+globalMap.get(&quot;batch_run_id&quot;)+&quot;'&quot;"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
     <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value="status_batch_log"/>
@@ -654,13 +518,13 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Z8a7tE1gEvIiFJNf1l01HkyOp+lTdBmD6t2+iBVS"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:VMj1gnDk3TQ9taQ8BKrZKCP8n3CF/vUrZzgpAWcn"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select job_run_id FROM audit_logs.job_logs where lower(status) &lt;&gt; 'success' and batch_run_id='&quot; + globalMap.get(&quot;batch_run_id&quot;) + &quot;' &quot; "/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select job_run_id FROM audit_logs.job_logs where lower(status) &lt;&gt; 'succeeded' and batch_run_id='&quot; + globalMap.get(&quot;batch_run_id&quot;) + &quot;' &quot; "/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -704,113 +568,6 @@
       <column comment="" key="false" length="-1" name="job_run_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="896" posY="608">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogCatcher_1"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="CHECK" name="CATCH_JAVA_EXCEPTION" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_TDIE" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_TWARN" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_TACTIONFAILURE" value="true"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tLogCatcher_1">
-      <column key="false" length="0" name="moment" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
-      <column key="false" length="20" name="pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column key="false" length="20" name="root_pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column key="false" length="20" name="father_pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column key="false" length="50" name="project" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column key="false" length="255" name="job" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column key="false" length="50" name="context" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="3" name="priority" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
-      <column key="false" length="255" name="type" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column key="false" length="255" name="origin" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="3" name="code" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="608">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_2"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="EXTERNAL" name="MAP" value=""/>
-    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
-    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_AO0SAKFHEe2FdogN07paGg-tMap_2-PREVIEW.bmp"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
-    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
-    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
-    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
-    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="batch_error" name="batch_error">
-      <column key="false" length="255" name="status_batch_log" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-    </metadata>
-    <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
-      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
-      <outputTables name="batch_error" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="status_batch_log" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row4.message " name="message" nullable="true" type="id_String"/>
-      </outputTables>
-      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row4" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="moment" nullable="true" type="id_Date"/>
-        <mapperTableEntries name="pid" nullable="true" type="id_String"/>
-        <mapperTableEntries name="root_pid" nullable="true" type="id_String"/>
-        <mapperTableEntries name="father_pid" nullable="true" type="id_String"/>
-        <mapperTableEntries name="project" nullable="true" type="id_String"/>
-        <mapperTableEntries name="job" nullable="true" type="id_String"/>
-        <mapperTableEntries name="context" nullable="true" type="id_String"/>
-        <mapperTableEntries name="priority" nullable="true" type="id_Integer"/>
-        <mapperTableEntries name="type" nullable="true" type="id_String"/>
-        <mapperTableEntries name="origin" nullable="true" type="id_String"/>
-        <mapperTableEntries name="message" nullable="true" type="id_String"/>
-        <mapperTableEntries name="code" nullable="true" type="id_Integer"/>
-      </inputTables>
-    </nodeData>
-  </node>
-  <node componentName="tMysqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1376" posY="608">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_3"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
-    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
-    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:EKWvxkewba+Fp352vQzHOuKd+CcNORX66dih3Ec8"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;UPDATE audit_logs.batch_logs SET status='fail', error_message=&quot;+ &quot;\&quot;&quot; + row4.message + &quot;\&quot;&quot;+&quot; WHERE batch_run_id='&quot;+globalMap.get(&quot;batch_run_id&quot;)+&quot;'&quot;"/>
-    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
-    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value="status_batch_log"/>
-    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
-    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
-    <elementParameter field="TEXT" name="LABEL" value="JOB_LOGS"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="batch_error" name="tDBRow_3">
-      <column key="false" length="255" name="status_batch_log" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-    </metadata>
-    <metadata connector="REJECT" label="batch_error" name="REJECT">
-      <column key="false" length="255" name="status_batch_log" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
   <node componentName="tMysqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="832">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_4"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
@@ -821,16 +578,16 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:HFSolMntnQIkpa6hO7zvbLjb6wrf0lHo4OfUbm6Z"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:VJV+y5Cn8vkLVjb6TXYsZNUY8Y+B5H5LUuvTRL4h"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;UPDATE audit_logs.batch_logs SET status='failed', error_message='One or more jobs of the batch are failed, please check the job logs' WHERE batch_run_id='&quot;+globalMap.get(&quot;batch_run_id&quot;)+&quot;'&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;UPDATE audit_logs.batch_logs SET status='failed', error_message='One or more jobs of the batch are failed, please check the job logs', ended_at=CURRENT_TIMESTAMP WHERE batch_run_id='&quot;+globalMap.get(&quot;batch_run_id&quot;)+&quot;'&quot;"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
     <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value="status_batch_log"/>
@@ -852,9 +609,161 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tDBInput_1">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
-  </connection>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_3"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:SXYBiQdAvfV/5pNVocDGycaRQQS7HiLXijL0agcK"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;with batchconf as &#13;&#10;(&#13;&#10;&#9;select batch_id, load_frequency, &#13;&#10;&#9;case when '&quot; + context.batch_date + &quot;' &lt;&gt; '' &#13;&#10;&#9;&#9;then '&quot; + context.batch_date + &quot;' &#13;&#10;&#9;&#9;else&#13;&#10;&#9;&#9;&#9;&#9;case when lower(load_frequency) = 'monthly' then DATE_FORMAT(CURDATE() - INTERVAL 1 MONTH,'%Y-%m-01') &#13;&#10;&#9;&#9;&#9;&#9;else DATE_FORMAT(CURDATE() - INTERVAL 1 DAY,'%Y-%m-%d') end &#13;&#10;&#9;&#9;end as batch_date&#13;&#10;&#9;from config.batch_config &#13;&#10;&#9;where lower(batch_name) = lower('&quot; + context.batch_name + &quot;')&#13;&#10;), batchlog as (&#13;&#10;&#9;SELECT batch_id, batch_date, sum(case when lower(status) = 'succeeded' then 1 else 0 end) cnt_success , sum(case when lower(status) = 'running' then 1 else 0 end) cnt_running &#13;&#10;&#9;FROM audit_logs.batch_logs&#13;&#10;&#9;where lower(batch_name) = lower('&quot; + context.batch_name + &quot;') and lower(status) in ('succeeded', 'running')&#13;&#10;&#9;group by batch_id, batch_date&#13;&#10;)&#13;&#10;select a.batch_id, a.batch_date, a.load_frequency, coalesce(b.cnt_success , 0) cnt_success, coalesce(b.cnt_running , 0) cnt_running&#13;&#10;from batchconf a&#13;&#10;left join batchlog b on a.batch_id = b.batch_id and a.batch_date = b.batch_date&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;noDatetimeStringSync=true&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="batch_id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="batch_date"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="load_frequency"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="cnt_success"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="cnt_running"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_3">
+      <column comment="" key="false" length="150" name="batch_id" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="batch_date" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="load_frequency" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="cnt_success" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="cnt_running" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFlowToIterate_2"/>
+    <elementParameter field="CHECK" name="DEFAULT_MAP" value="true"/>
+    <elementParameter field="TABLE" name="MAP" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFlowToIterate_2"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_3"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Starting job!!&quot;);&#10;&#10;System.out.println(&quot;&gt;&gt;batch_name : &quot; + context.batch_name);&#10;System.out.println(&quot;&gt;&gt;batch_date : &quot; + context.batch_date);&#10;&#10;// set batch date vars&#10;String[] spl_date= ((String)globalMap.get(&quot;row3.batch_date&quot;)).split(&quot;-&quot;);&#10;&#10;String year = spl_date[0];&#10;System.out.println(&quot;Year: &quot; + year);&#10;globalMap.put(&quot;year&quot;, year);&#10;&#10;String month = spl_date[1];&#10;System.out.println(&quot;Month: &quot; + month);&#10;globalMap.put(&quot;month&quot;, month);&#10;&#10;String day = spl_date[2];&#10;if (((String)globalMap.get(&quot;row3.load_frequency&quot;)).toLowerCase().equals(&quot;monthly&quot;)) {&#10;&#9;day = &quot;01&quot;;&#10;}&#10;System.out.println(&quot;Day: &quot; + day);&#10;globalMap.put(&quot;day&quot;, day);&#10;&#10;&#10;String batch_date = year + &quot;-&quot; + month + &quot;-&quot; + day;&#10;System.out.println(&quot;batch_date: &quot; + batch_date);&#10;globalMap.put(&quot;batch_date&quot;, batch_date);&#10;&#10;&#10;String batch_run_id = &quot;batch_&quot;+context.batch_name.toLowerCase()+&quot;_&quot;+ (System.currentTimeMillis() / 1000L);&#10;System.out.println(&quot;batch_run_id : &quot; + batch_run_id);&#10;globalMap.put(&quot;batch_run_id&quot;, batch_run_id);&#10;&#10;&#10;if ( ((Integer)globalMap.get(&quot;row3.cnt_running&quot;)) &gt; 0 || ((Integer)globalMap.get(&quot;row3.cnt_success&quot;)) &gt; 0){&#10;&#9;System.out.println(&quot;Stopping the job!!&quot;);&#10;&#9;System.out.println(&quot;The job with the same batch_date and batch_name is already running or succeeded before!!&quot;);&#10;} else {&#10;&#9;&#9;System.out.println(&quot;inserting batch log&quot;);&#10;&#10;&#9;String status_log = &quot;running&quot;;&#10;&#9;String batch_error_message = &quot;&quot;;&#10;&#9;String stage = &quot;raw&quot;;&#10;&#9;String curr_timestamp =&quot;CURRENT_TIMESTAMP&quot;;&#10;&#9;&#9;&#10;&#9;String append_batch_logs = &quot;INSERT INTO audit_logs.batch_logs &quot;+&#10;&#9;&#9;&quot;\n(batch_run_id, batch_id, batch_name, batch_date, status, error_message, stage, started_at) VALUES('&quot;+&#10;&#9;&#9;batch_run_id +&quot;', &quot;+&#10;&#9;&#9;((String)globalMap.get(&quot;row3.batch_id&quot;)).toString() +&quot;, '&quot;+&#10;&#9;&#9;context.batch_name+&quot;', '&quot;+&#10;&#9;&#9;((String)globalMap.get(&quot;batch_date&quot;))+&quot;', '&quot;+&#10;&#9;&#9;status_log+&quot;', '&quot;+&#10;&#9;&#9;batch_error_message+&quot;', '&quot;+&#10;&#9;&#9;stage+&quot;', &quot;+&#10;&#9;&#9;curr_timestamp+&#10;&#9;&#9;&quot;)&quot;;&#10;&#10;&#9;System.out.println(&quot;append_batch_logs : &quot; + append_batch_logs);&#10;&#9;globalMap.put(&quot;append_batch_logs&quot;, append_batch_logs);&#10;&#9;&#10;}&#10;&#10;&#10;&#10;String regex = &quot;^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$&quot;;&#10;Pattern pattern = Pattern.compile(regex);&#10;Matcher matcher = pattern.matcher(((String)globalMap.get(&quot;row3.batch_date&quot;)));&#10;boolean is_date_valid = matcher.matches();&#10;&#10;&#10;System.out.println(&quot;is_date_valid : &quot; + String.valueOf(is_date_valid) );&#10;globalMap.put(&quot;is_date_valid&quot;, is_date_valid);&#10;&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import java.util.regex.Matcher;&#10;import java.util.regex.Pattern;"/>
+    <elementParameter field="TEXT" name="LABEL" value="SET_BATCH_VARIABLES"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_3"/>
+  </node>
+  <node componentName="tMysqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:01CMSvYkrDTamt0i646xOCs5qBhRfG61rSS6TgL1"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="((String)globalMap.get(&quot;append_batch_logs&quot;))"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value="batch_run_id"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="INSERT_BATCH_LOGS"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_1">
+      <column comment="" key="false" length="-1" name="batch_run_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="batch_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="batch_date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="status_batch_log" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="batch_error_message" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="stage" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="process_at" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="batch_run_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="batch_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="batch_date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="status_batch_log" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="batch_error_message" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="stage" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="process_at" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_gcWB8KLSEe2nOrROvVQp2A"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
+    <elementParameter field="TEXT" name="HOST" value="context.CONFIG_DB_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
+    <elementParameter field="TEXT" name="PORT" value="context.CONFIG_DB_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.CONFIG_DB_Database"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.CONFIG_DB_AdditionalParams"/>
+    <elementParameter field="TEXT" name="USER" value="context.CONFIG_DB_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1AIBYoD5YVKq2hAw6jV/vywvetEV3PS5WCUDGI4ibP0ShvYIS3zLq4Mg8azUkl2/4CGqkRFo"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_1"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Date format is not valid, use format : yyyy-MM-dd !!&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="5"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="INVALID DATE"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_1"/>
+  </node>
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_2"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;The spesific batch name not found!!&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="10"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="INVALID_BATCH_NAME"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_2"/>
+  </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tDBConnection_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
   </connection>
@@ -869,6 +778,9 @@
       <elementValue elementRef="TRACE_COLUMN" value="num_parallel"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="custom_schema"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
@@ -880,7 +792,7 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
   </connection>
-  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_1" target="tFlowToIterate_1">
+  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tFlowToIterate_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
       <elementValue elementRef="TRACE_COLUMN" value="table_id"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
@@ -903,13 +815,12 @@
       <elementValue elementRef="TRACE_COLUMN" value="type_table"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="custom_schema"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out1"/>
-  </connection>
-  <connection connectorName="FLOW" label="out2" lineStyle="0" metaname="out2" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_1" target="tUniqRow_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out2"/>
   </connection>
   <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_1" offsetLabelX="50" offsetLabelY="-29" source="tFlowToIterate_1" target="tJava_2">
     <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="true"/>
@@ -920,20 +831,6 @@
     <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="true"/>
     <elementParameter field="TEXT" name="NUMBER_PARALLEL" value="context.num_parallel"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate2"/>
-  </connection>
-  <connection connectorName="UNIQUE" label="row3" lineStyle="0" metaname="UNIQUE" offsetLabelX="0" offsetLabelY="0" source="tUniqRow_1" target="tFlowToIterate_2">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
-  </connection>
-  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_2" offsetLabelX="0" offsetLabelY="0" source="tFlowToIterate_2" target="tJava_3">
-    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
-    <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate3"/>
-  </connection>
-  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tJava_3" offsetLabelX="0" offsetLabelY="0" source="tJava_3" target="tDBRow_1">
-    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
-    <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate4"/>
   </connection>
   <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tLogRow_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
@@ -952,33 +849,45 @@
     <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Integer)globalMap.get(&quot;tDBInput_2_NB_LINE&quot;)) &gt; 0"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If2"/>
   </connection>
-  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tLogCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tLogCatcher_1" target="tMap_2">
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tDBInput_3" offsetLabelX="0" offsetLabelY="0" source="tDBInput_3" target="tFlowToIterate_2">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="cnt_success"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="batch_date"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="cnt_running"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
   </connection>
-  <connection connectorName="FLOW" label="batch_error" lineStyle="0" metaname="batch_error" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tDBRow_3">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="batch_error"/>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tDBInput_3" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tDBInput_3" target="tDie_1">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="!((boolean)globalMap.get(&quot;is_date_valid&quot;))"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If4"/>
   </connection>
-  <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
-    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Variables"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tDBInput_3" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tDBInput_3" target="tDBRow_1">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Integer)globalMap.get(&quot;row3.cnt_success&quot;)) == 0 &amp;&amp; ((Integer)globalMap.get(&quot;row3.cnt_running&quot;)) == 0"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If6"/>
+  </connection>
+  <connection connectorName="SUBJOB_ERROR" label="OnSubjobError" lineStyle="4" metaname="tDBInput_3" offsetLabelX="0" offsetLabelY="0" source="tDBInput_3" target="tDie_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobError1"/>
+  </connection>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_2" offsetLabelX="0" offsetLabelY="0" source="tFlowToIterate_2" target="tJava_3">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate3"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" source="tDBRow_1" target="tDBInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
@@ -1003,25 +912,45 @@
   </subjob>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogCatcher_1"/>
-    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="batch error"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_4"/>
     <elementParameter field="TEXT" name="SUBJOB_TITLE" value="batch failed"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_de6af698-a994-4802-9283-4301215394bf"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>m63haN2+oreZkWY/qOQjLP7xsv4tBLVJKG6En+p0Tcwf+SpTd6EEv8PvI1qfq2iRabqpsbLcWOwk&#13;
-6JbgkGm6eg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bbef0adb-f4d3-4546-8f86-f3513a4b8715"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>k3KLvS8SioIJud5Ulsl+KXn0G+iLOUMPR1k/u6FN7o3WtPTPmMlaylyin/ZdHnmIwCFwKKufsFKe&#13;
-EC1ClvnuSw==</DigestValue></Reference></SignedInfo><SignatureValue>eKuGfwHGcNREHPfTRaC9dO0oAzXmXWSifC04Kc0UbFu5MbIWXODFw2ICs/opIfT30S7Qz+jnxDWb&#13;
-u444q2DF65RUEDt7JkCslKQlm2RCA/SEsj09/KPNblaAg7WJceroXSYORN/vRnPZplA32Es+E5xF&#13;
-Z5ZcWFAhR6s6VSxQNf4RqhAOc/Elji634lUMgp3DJl8CHjBxvYQxiTUzaqHVteYJkTTPUegjmBi2&#13;
-U0274ehUse2jzNMQ078n1Ca/OOPfzBYiWITdbVRZLXs0hZ7E/DEBDM0r33z+EkCbd7612/9sAN65&#13;
-oaxogtPVvwgTvWKj/32pt41guITGzGwPMovVwQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_3"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Generate Batch Run ID &amp; Insert to Batch Log"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_75d10779-4821-406b-8370-2da0c54540ea"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>5LHWlTHjmjmcN37GxtoiiriPP6UOLDRK7YZsV7GS8JSL/Dkg1GaNrtPmC3yM+Wpa/PKEL/WA1Ghj&#13;
+vJaScDbrqA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d97d7de1-22f6-454c-82af-05674758163d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>htWwH10zoHz9xe4X/7bElC76eCkgkPUQDDS1ijSQh09ml7Tl4zPyR/BCW0vHH5ujCHvNdgrVv/c2&#13;
+UkwL0eKlfg==</DigestValue></Reference></SignedInfo><SignatureValue>GO+LqjlzlNHZZzV/kJgnZcr8OOoEs2IDFxBZFBnnNZTsP41xtqkHz04VPPfipcWeXZIqND6304V4&#13;
+qE2V3zrCv5quhei3a6CfgFr3CVjCIitaEFVdaE3K2agOITwvLDV1UdqChenpE9XTJiix33zYLtkJ&#13;
+Mrx5MsNdgUoHryLRjs1RJWHe/xQ73MHxDkUn1GJyX+r1VJ/NPx4o+eLCkbSxYu9rj8qCQZeQghH3&#13;
++PlIpnNFJM68uGTk9sXuK1QRS6NyUchmAfEWjeiTvueybKBAJXRIsuqijwZHMjqst/ImWItA3oYc&#13;
+JIAHkPfmYI9YEFts9xImho+22XZtE6dJzjnFDg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1043,4 +972,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bbef0adb-f4d3-4546-8f86-f3513a4b8715" Target="#_de6af698-a994-4802-9283-4301215394bf"><Timestamp>2023-04-03 02:55:14</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d97d7de1-22f6-454c-82af-05674758163d" Target="#_75d10779-4821-406b-8370-2da0c54540ea"><Timestamp>2023-04-03 03:00:17</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
